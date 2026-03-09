@@ -1,5 +1,3 @@
-![Logo](https://avatars.githubusercontent.com/u/264260364?s=200&v=4)
-
 # The Karpfen Toolkit 🐟
 
 Karpfen is a **model-driven state machine execution framework** built around three domain-specific languages and a lightweight runtime server.
