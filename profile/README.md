@@ -8,6 +8,7 @@ Karpfen is a **model-driven state machine execution framework** built around thr
 | **KModel** (`.kmodel`) | Instantiates a concrete world model from a KMeta metamodel |
 | **KStates** (`.kstates`) | Attaches hierarchical statecharts to model objects; supports `ENTRY`/`DO` phases, prioritised transitions, `NOT LOOPING` guards, Python-embedded `EVAL` expressions, and reusable `MACRO` definitions |
 | **karpfen-runtime** | Stateless Kotlin/Ktor HTTP server that hosts execution environments in-memory; exposes a REST API and a WebSocket push channel for live object-change and domain-event notifications |
+| **karpfen-observatory** | Simple monitoring client for statemachines running in the karpfen-runtime |
 
 **Highlighted features:**
 - Multiple independent execution environments per server instance, each with its own model and statemachine set
