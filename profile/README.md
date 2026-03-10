@@ -4,11 +4,11 @@ Karpfen is a **model-driven state machine execution framework** built around thr
 
 | Layer | What it does |
 |---|---|
-| **KMeta** (`.kmeta`) | Defines type hierarchies — classes, properties, composition (`has`), and references (`knows`) |
-| **KModel** (`.kmodel`) | Instantiates a concrete world model from a KMeta metamodel |
-| **KStates** (`.kstates`) | Attaches hierarchical statecharts to model objects; supports `ENTRY`/`DO` phases, prioritised transitions, `NOT LOOPING` guards, Python-embedded `EVAL` expressions, and reusable `MACRO` definitions |
-| **karpfen-runtime** | Stateless Kotlin/Ktor HTTP server that hosts execution environments in-memory; exposes a REST API and a WebSocket push channel for live object-change and domain-event notifications |
-| **karpfen-observatory** | Simple monitoring client for statemachines running in the karpfen-runtime |
+| **KMeta** | (`.kmeta`) Defines type hierarchies — classes, properties, composition (`has`), and references (`knows`) |
+| **KModel** | (`.kmodel`) Instantiates a concrete world model from a KMeta metamodel |
+| **KStates** | (`.kstates`) Attaches hierarchical statecharts to model objects; supports `ENTRY`/`DO` phases, prioritised transitions, `NOT LOOPING` guards, Python-embedded `EVAL` expressions, and reusable `MACRO` definitions |
+
+---> KMeta, KModel, and KStates DSLs are defined in the *karpfen-dsl-tools* repository
 
 **Highlighted features:**
 - Multiple independent execution environments per server instance, each with its own model and statemachine set
@@ -32,6 +32,10 @@ Karpfen is a **model-driven state machine execution framework** built around thr
 ## ⭐ Demos ⭐
 
 You find a demo for a simulation of a cyber-physical setting using multiple concurrent statecharts and a world model here [Turtle Robot Demo](https://github.com/karpfenproject/robot-model-js-client-demo)
+
+## Starter Projects
+
+Starter project templates for Java, Scala and Python are prepared toegther with a minimal usecase example in the (Connectors repository)[https://github.com/karpfenproject/connectors].
 
 ## License
 
