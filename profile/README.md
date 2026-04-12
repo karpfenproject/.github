@@ -6,7 +6,7 @@ Karpfen is a **model-driven state machine execution framework** built around thr
 |---|---|
 | **KMeta** | (`.kmeta`) Defines type hierarchies — classes, properties, composition (`has`), and references (`knows`) |
 | **KModel** | (`.kmodel`) Instantiates a concrete world model from a KMeta metamodel |
-| **KStates** | (`.kstates`) Attaches hierarchical statecharts to model objects; supports `ENTRY`/`DO` phases, prioritised transitions, `NOT LOOPING` guards, Python-embedded `EVAL` expressions, and reusable `MACRO` definitions |
+| **KStates** | (`.kstates`) Statechart definition format. Attaches hierarchical statecharts to model objects |
 
 ---> KMeta, KModel, and KStates DSLs are defined in the *karpfen-dsl-tools* repository
 
