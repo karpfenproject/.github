@@ -31,11 +31,11 @@ Karpfen is a **model-driven state machine execution framework** built around thr
 
 ## ⭐ Demos ⭐
 
-You find a demo for a simulation of a cyber-physical setting using multiple concurrent statecharts and a world model here [Turtle Robot Demo](https://github.com/karpfenproject/robot-model-js-client-demo)
+We provide a demo for a simulation of a cyber-physical setting using multiple concurrent statecharts and a world model: [Cleaning Robot Demo](https://github.com/karpfenproject/robot-model-js-client-demo)
 
 ## Starter Projects
 
-Starter project templates for Java, Scala and Python are prepared toegther with a minimal usecase example in the (Connectors repository)[https://github.com/karpfenproject/connectors].
+Starter project templates for Java, Scala and Python are prepared toegther with a minimal usecase example in the [Connectors repository](https://github.com/karpfenproject/connectors).
 
 ## License
 
