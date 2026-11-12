@@ -29,10 +29,6 @@ Karpfen is a **model-driven state machine execution framework** built around thr
 - [KModel Grammar Guide](https://github.com/karpfenproject/karpfen-dsl-tools/blob/main/guides/kmodel_grammar_guide.md)
 - [KStates Grammar Guide](https://github.com/karpfenproject/karpfen-dsl-tools/blob/main/guides/kstates_grammar_guide.md)
 
-## ⭐ Demos ⭐
-
-We provide a demo for a simulation of a cyber-physical setting using multiple concurrent statecharts and a world model: [Cleaning Robot Demo](https://github.com/karpfenproject/robot-model-js-client-demo)
-
 ## Starter Projects
 
 Starter project templates for Java, Scala and Python are prepared toegther with a minimal usecase example in the [Connectors repository](https://github.com/karpfenproject/connectors).
